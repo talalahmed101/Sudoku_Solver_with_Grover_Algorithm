@@ -17,7 +17,7 @@ For any constraint consisting of $m = n^2$ cells, let us denote the value of cel
 
 3. Collision: If there is any repetition of values, the bucket qubit corresponding to the repeated value will be flipped an even number of times, reverting it to $|0\rangle$.
 
-For every cell, represented using $d = \lceil \log_2(n^2) \rceil$ qubits, a quantum decoder will be employed to mark the relevant bucket qubit for the value $v_i = k$ through a series of multi-controlled $X$ gates (MCX), with the controls dependent on the binary representation of the Sudoku values $ k $. After this setup, we carry out the following steps:
+For every cell, represented using $d = \lceil \log_2(n^2) \rceil$ qubits, a quantum decoder will be employed to mark the relevant bucket qubit for the value $v_i = k$ through a series of multi-controlled $X$ gates (MCX), with the controls dependent on the binary representation of the Sudoku values $k$. After this setup, we carry out the following steps:
 
 -Compute: Utilize decoders for all cells within the constraint to fill the buckets accordingly.
   
