@@ -124,7 +124,10 @@ These functions implement the Sudoku oracle logic.
 
 <code>Grover_Diffuser_circuit(x_reg)</code> constructs the Grover Diffuser circuit for given qubit register associated with empty cells <code>x</code>.
 
-<code>Grover_Full_Diffusion(qc, x, anc, depth, oracle_gate, Diffuse_gate)</code> constructs the Grover Diffusion for given quantum circuit, qubit register associated with empty cells <code>x</code>, and qubit register associated with global ancilla <code>anc</code>. Here depth associated with the minimum number of Grover iteration associated with the dimension of the search space. 
+<code>Grover_Full_Diffusion(qc, x, anc, depth, oracle_gate, Diffuse_gate)</code> constructs the Grover Diffusion for given quantum circuit, qubit register associated with empty cells <code>x</code>, and qubit register associated with global ancilla <code>anc</code>. Here depth associated with the minimum number of Grover iteration associated with the dimension of the search space.
+
+## Examples
+In the attached python file, the $n = 2$ with $4\times 4$ Sudoku grid with four empty cells is solved. Besides, the $n=3$ with $9\times 9$ Sudoku grid with two empty cells is solved.
 
 ## References
 [1] http://www.afjarvis.org.uk/sudoku/
