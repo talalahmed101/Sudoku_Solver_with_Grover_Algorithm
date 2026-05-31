@@ -1,4 +1,8 @@
 # Sudoku_Solver_with_Grover_Algorithm
+
+**Please use nbviewer to view the file:**
+https://nbviewer.jupyter.org/github/talalahmed101/Sudoku_Solver_with_Grover_Algorithm/blob/main/Sudoku_solver_with_Grover_search_ver_4.ipynb
+
 Solving $n^2 \times n^2$ Sudoku with Grover's algorithm
 
 Sudoku is a puzzle that involves logic and combinatorial number placement, organized on grids of size $n^2 \times n^2$ composed of $n \times n$ blocks. Sudoku aims to fill this grid with the numbers from 1 to $n^2$, ensuring that each column, each row, and each of the $n^2$ subgrids (often referred to as "boxes") contains every digit exactly once. In the classic version, the task is to complete a 9 × 9 grid so that each column, each row, and the nine $3\times 3$ boxes contain all the digits from 1 to 9 without repetition. When provided with a partially filled grid, a well-formed Sudoku puzzle has a single solution, which we aim to find.
